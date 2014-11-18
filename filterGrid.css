@@ -1,0 +1,56 @@
+/**
+*
+* Responsive Grid with Animated Filtering
+* ----------------- 
+* Copyright (c) 2014 CodeNorris.com
+* Licensed under MIT (https://github.com/CodeNorris/FilterGrid/blob/master/LICENSE)
+*
+**/
+
+/* button styles */
+.button {
+	display: inline-block;
+	margin: 2px;
+	padding: 10px;
+	border: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+	-khtml-border-radius: 5px; /* for old Konqueror browsers */
+	background-color: #aaa;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	width:120px;
+}
+.button:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+ filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
+	opacity: 0.85;
+}
+
+/* grid styles */
+.filterContainer {
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #484c51;
+}
+.filterGrid {
+	list-style: none;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+.filterGrid li {
+	display: inline-block;
+	margin: 12px 20px 12px 0px;
+	vertical-align: top;
+	height: 200px;
+	width: 200px;
+}
+.filterGrid img {
+	padding: 6px;
+	border: solid 1px #d6dbdd!important;
+	max-width: 100%;
+	height: auto;
+}
