@@ -3,6 +3,6 @@ FilterGrid
 
 A responsive grid with animated filtering using the awesome Animate.css library.
 
-DEMO: http://dojo.codenorris.com/k/FilterGrid/
+Check out the demo @ http://dojo.codenorris.com/k/FilterGrid/
 
-Be sure to download and include the Animate.css library from http://daneden.github.io/animate.css/
+Be sure to download and include Animate.css from http://daneden.github.io/animate.css/
