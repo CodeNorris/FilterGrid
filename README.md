@@ -1,7 +1,7 @@
 FilterGrid
 ==========
 
-A responsive grid with animated filtering using the awesome Animate.css library.
+A responsive grid with animated filtering using the awesome ANIMATE.CSS library.
 
 Check out the demo @ http://dojo.codenorris.com/k/FilterGrid/
 
